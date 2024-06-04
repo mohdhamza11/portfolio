@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: whitesmoke;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+   /*background-c%;*/
+   height: 100%;
+    width: 100%;
+    font-size: 25px;
+
+}
+
+#nav  {
+   display: flex;
+    justify-content: space-between;
+    align-items: start;
+   font-size: 30px;
+   padding: 40px 70px; 
+}
+
+#nav-bar1{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 15px;
+    padding: 10px 100px;
+    font-weight: bold;
+}
+#top-end button{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border: 2px solid rgb(226, 146, 137);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 550;
+    color: seashell;
+    background-color: rgb(226, 146, 137);
+    
+}
+
+#main {
+   padding: 100px 70px;
+   height: 50%;
+    width: 80%;
+}
+h1{
+    font-size:40px
+}
+h2{
+    font-size: 38px;
+    
+}
+ #main span{
+    color: rgb(209, 72, 57);
+}
+    
+
+
+#main P{
+    padding-top: 30px;
+}
+img {
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    object-position: top;
+    border-radius: 40%;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+#download {
+     height: 6%;
+     width: 16%;
+      border: 2px solid black;
+    border-radius: 5px;
+      font-size: medium;
+      padding-bottom: 2.5%;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    right: 10%;
+    padding: 8px 40px;
+    background-color: salmon;
+
+}
+ #download i {
+    background-color: salmon;
+    
+}
+#download span{
+    font-weight: 600;
+    background-color: salmon;
+}
+/*#download:hover{
+    background-color: lightsalmon;
+}
+#download i:hover{
+    background-color: lightsalmon;
+ } */
+#btm-left {
+    position: absolute;
+    top: 95%;
+    left: 11%;
+    transform: translate(-50%,-50%);
+     
+}
+ #btm-left i{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+}
+
